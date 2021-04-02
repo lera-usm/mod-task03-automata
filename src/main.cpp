@@ -2,7 +2,7 @@
 
 int main()
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	int sdacha = 0;
 	Automata cofe;
