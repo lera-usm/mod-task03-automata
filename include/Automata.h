@@ -17,6 +17,7 @@ public:
 	int otmena();
 	bool vibor(int pos);
 	int finish();
+	states get_state();
 private:
 	states state{ states::off };
 	int money = 0;
