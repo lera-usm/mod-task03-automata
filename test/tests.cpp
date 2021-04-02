@@ -3,7 +3,7 @@
 
 TEST(testing, on)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -11,7 +11,7 @@ TEST(testing, on)
 }
 TEST(testing, off)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -20,7 +20,7 @@ TEST(testing, off)
 }
 TEST(testing, coin)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -29,7 +29,7 @@ TEST(testing, coin)
 }
 TEST(testing, get_menu)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -37,7 +37,7 @@ TEST(testing, get_menu)
 }
 TEST(testing, get_ceny)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -45,7 +45,7 @@ TEST(testing, get_ceny)
 }
 TEST(testing, otmena)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -55,7 +55,7 @@ TEST(testing, otmena)
 }
 TEST(testing, vibor)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
@@ -64,7 +64,7 @@ TEST(testing, vibor)
 }
 TEST(testing, cook)
 {
-	vectotr<string> menu{ "capuchino","latte","mokko" };
+	vector<string> menu{ "capuchino","latte","mokko" };
 	vector<int> ceny{ 25,20,30 };
 	Automata A(menu, ceny);
 	A.on();
